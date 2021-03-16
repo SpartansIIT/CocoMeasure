@@ -6,7 +6,7 @@ import './App.css';
 function Gazette(){
     return(
         <div className="upl">
-          <Link to="/UploadPic"><h1>Hello World</h1></Link>
+          <Link to="/UploadPic"><h1>Hello World- Gazette</h1></Link>
           
 
       </div>
