@@ -18,7 +18,7 @@ function App() {
 
         
       <Switch>
-      <Route Path=" /UploadPic" component={UploadPic}/>
+      <Route Path=" /camera" component={camera}/>
       {/* <Route Path=" /camera" component={camera}/> */}
       </Switch>
       
