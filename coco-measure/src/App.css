@@ -23,8 +23,8 @@
   font-family: "montserrat";
   font-size: 75px; 
   text-shadow: 3px 3px black;
-  margin-top: 210px;
-  right: -37%;
+  margin-top: 57px;
+  right: -12%;
 
 }
 
@@ -74,7 +74,7 @@
   position: relative;
   font-family: "montserrat";
   overflow: hidden;
-  margin-top: 150px;
+  margin-top: 300px;
   right: -900px;
   
   
@@ -229,4 +229,20 @@ nav ul ul li  {
   cursor: pointer;
 }
 
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
+.app__container {
+	margin-top: 10px;
+	width: 500px;
+	height: 500px;
+	border: 1px solid #000;
+}
+
+.app__input {
+	margin-top: 10px;
+}

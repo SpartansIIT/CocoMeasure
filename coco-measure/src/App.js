@@ -4,6 +4,7 @@ import Upload from './Upload';
 import Gazette from './Gazette';
 import { BrowserRouter as Router,Switch, Route, } from 'react-router-dom';
 import UploadPic from './UploadPic';
+import camera from './camera';
 
 
 
@@ -17,9 +18,10 @@ function App() {
 
         
       <Switch>
-
-      <Route Path=" /Upload" component={Upload}/>
+      <Route Path=" /UploadPic" component={UploadPic}/>
+      {/* <Route Path=" /camera" component={camera}/> */}
       </Switch>
+      
       
     </div>
     </Router>
