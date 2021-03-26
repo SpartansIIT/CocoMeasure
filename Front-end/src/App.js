@@ -1,32 +1,31 @@
-import React from 'react';
-import Nav from './Nav';
+import React, { useState, useEffect } from 'react';
+
+import Home from './Home';
 import Upload from './Upload';
-import Gazette from './Gazette';
-import { BrowserRouter as Router,Switch, Route, } from 'react-router-dom';
-import UploadPic from './UploadPic';
-import camera from './camera';
 
-
-
+import { BrowserRouter as Router, Route, Link, Navlink, Switch } from 'react-router-dom';
 function App() {
 
+  const [currentTime, setCurrentTime] = useState(0);
+
+  useEffect(() => {
+    fetch('/time').then(res => res.json()).then(data => {
+      setCurrentTime(data.time);
+    });
+  }, []);
+
   return (
+    <div className="App">
 
-    <Router>
+    <p>The current time is {currentTime}.</p>
 
-      <div className="A">
-
-        
-      <Switch>
-      <Route Path=" /camera" component={camera}/>
-      {/* <Route Path=" /camera" component={camera}/> */}
-      </Switch>
-      
-      
+      <Router>
+        <Route exact path="/" component={ Home }></Route>
+        <Route exact path="/Upload" component={ Upload }></Route>
+      </Router>
+   
     </div>
-    </Router>
   );
 }
-
 
 export default App;
