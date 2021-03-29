@@ -22,7 +22,7 @@ export class UploadPic extends Component {
 			return (
 				<div className="WholePage">
 					<div className="container2">
-						<h1 className="UploadImage">Upload your Image</h1>
+						<h1 className="UploadImage">Upload Your Image</h1>
 						<div className="imgHolder">
 							<img src={profileImg} alt="" id="img" className="image" />
 						</div>
@@ -31,7 +31,7 @@ export class UploadPic extends Component {
 							<form id="upload-file" method="post" encType="multipart/form-data">
 							<label className="image-upload" htmlFor="input">
 								<i className="material-icons"></i>
-								Choose your Photo
+								Select a Photo from gallery
 							</label>
 							</form>
 						  </div>

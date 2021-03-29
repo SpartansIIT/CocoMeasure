@@ -1,21 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300;1,500&display=swap");
+
+
 .WholePage {
   display: flex;
   height: 100vh;
   align-items: center;
   background-color: teal;
+  background-image: url("assets/Coco\ Image\ background\ 4.png");
   justify-content: center;
 }
 
 .container2 {
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 400px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .UploadImage {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 1rem;
+  font-family: Spartan, monospace;
+  margin-top: 2rem;
   font-weight: bold;
 }
 .imgHolder {
@@ -41,14 +47,46 @@
   justify-content: center;
 }
 .image-upload {
-  margin: auto;
-  width: 200px;
+  width: 300px;
   height: 50px;
+  margin: 20px;
+  padding: 5px 15px;
+  font-family: Spartan, monospace;
+  font-weight: 900;
   color: white;
-  border-radius: 10px;
+  transition: 0.7s;
+  border-radius: 5px;
   background-color: black;
   text-align: center;
   cursor: pointer;
+}
+
+.image-upload:hover{
+  background: rgb(255, 255, 255);
+  opacity: 0.9;
+  color: rgb(0, 0, 0);
+}
+
+#btn-predict{
+  width: 70px;
+  height: 25px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: Spartan, monospace;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.7s;
+  margin-top: 1.2rem;
+  margin-left: 165px;
+  background-color: black;
+}
+#btn-predict:hover{
+  background: yellowgreen;
+  opacity: 0.9;
+  color: black;
 }
 
 .app {
