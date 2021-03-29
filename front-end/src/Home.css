@@ -1,32 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300;1,500&display=swap");
+
 .con {
   background-color: white;
   color: black;
 }
 
 .content {
-  background-image: url("assets/cover.jpeg");
+  background-image: url("assets/Coco\ Image\ background\ 3.png");
   position: fixed;
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
 }
 
-.Coco {
-  color: whitesmoke;
+.AppName {
   position: relative;
-  color: whitesmoke;
-  font-family: "montserrat";
-  font-size: 75px;
-  text-shadow: 3px 3px black;
-  margin-top: 57px;
-  right: -12%;
+  color: rgb(255, 255, 255);
+  font-family: "Spartan", monospace;
+  font-size: 74px;
+  text-shadow: 3px 3px#ff812787;
+  margin-top: 40px;
+  /* right: -8%; */
+  margin-left: 80px;
 }
 
-.Measure {
-  font-size: 15px;
-  margin-left: 200px;
-  margin-top: -25px;
-  font-family: "Times New Roman", Times, serif;
+.Moto {
+  color: rgb(255, 255, 255);
+  font-family: "Spartan", monospace;
+  font-size: 22px;
+  margin-left: 88px;
+  margin-top:-40px;
 }
 
 .App-header {
@@ -53,24 +58,37 @@
   }
 }
 
+.buttonContainer {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  
+}
+
 .btn {
-  border: 1px solid black;
-  border-radius: 5px;
-  background: none;
+  border: 1px solid rgb(252, 241, 210);
+  border-radius: 20px;
+  background: #4b340387;
   padding: 10px 20px;
   font-size: 27px;
   cursor: pointer;
   margin: 10px;
-  transition: 0.8s;
+  transition: 0.7s;
   position: relative;
-  font-family: "montserrat";
+  font-family: "IBM Plex Mono", monospace;
+  color: rgb(255, 255, 255);  
   overflow: hidden;
-  margin-top: 300px;
-  right: -900px;
+  margin: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  right: -150px;
+  top: 10px;
+  align-content: flex-start;
+
 }
 
 .btn:hover {
-  background: black;
+  background: rgb(236, 222, 184);
   opacity: 0.9;
-  color: antiquewhite;
+  color: rgb(133, 75, 0);
 }

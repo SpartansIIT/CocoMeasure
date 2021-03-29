@@ -8,12 +8,25 @@ function Home(){
         <div className="content">
 
 
-        <h1 className ="Coco">Coco Measure</h1>
+        <h1 className ="AppName">Coco Measure</h1>
 
-        <h2 className="Measure">Measure before you buy it ..</h2>
+        <h3 className="Moto">Measure before you buy it...</h3>
 
-        <button className="btn"><Link to="/Upload">Upload Image</Link></button>
-        <button className="btn">Capture Photo</button>
+        <div className = "buttonContainer">        
+          <div className = "button1">
+            <button className="btn"><Link to="/Upload">Upload an Image</Link></button>
+          </div>
+        
+          <div className = "button2">
+            <button className="btn">Capture an Image</button>
+          </div>
+
+          <div className = "button3">
+            <button className="btn">View Price Categories</button>
+          </div>
+        </div>
+
+        {/* <button className="btn">Capture Photo</button> */}
 
 
 
