@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300;1,500&display=swap");
 
-
 .WholePage {
   display: flex;
   height: 100vh;
@@ -56,18 +55,18 @@
   color: white;
   transition: 0.7s;
   border-radius: 5px;
-  background-color: black;
+  background-color: rgb(128, 103, 103);
   text-align: center;
   cursor: pointer;
 }
 
-.image-upload:hover{
-  background: rgb(255, 255, 255);
+.image-upload:hover {
+  background: rgb(119, 189, 104);
   opacity: 0.9;
   color: rgb(0, 0, 0);
 }
 
-#btn-predict{
+#btn-predict {
   width: 70px;
   height: 25px;
   margin: 10px;
@@ -81,9 +80,9 @@
   transition: 0.7s;
   margin-top: 1.2rem;
   margin-left: 165px;
-  background-color: black;
+  background-color: rgb(128, 103, 103);
 }
-#btn-predict:hover{
+#btn-predict:hover {
   background: yellowgreen;
   opacity: 0.9;
   color: black;
