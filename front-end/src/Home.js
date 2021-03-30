@@ -18,7 +18,7 @@ function Home(){
           </div>
         
           <div className = "button2">
-            <button className="btn">Capture an Image</button>
+            <button className="btn"><Link to="/camera">Capture an Image</Link></button>
           </div>
 
           <div className = "button3">

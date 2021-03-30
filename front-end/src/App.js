@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 import Home from './Home';
 import Upload from './Upload';
+import camera from './camera';
+
 
 import { BrowserRouter as Router, Route, Link, Navlink, Switch } from 'react-router-dom';
 function App() {
@@ -17,11 +19,12 @@ function App() {
   return (
     <div className="App">
 
-    <p>The current time is {currentTime}.</p>
 
       <Router>
         <Route exact path="/" component={ Home }></Route>
         <Route exact path="/Upload" component={ Upload }></Route>
+        <Route exact path="/camera" component={ camera }></Route>
+
       </Router>
 
     </div>
