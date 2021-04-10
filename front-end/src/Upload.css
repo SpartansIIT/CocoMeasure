@@ -12,7 +12,7 @@
 }
 
 .container2 {
-  height: 350px;
+  height: 450px;
   width: 400px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.7);
@@ -22,6 +22,10 @@
   font-family: Spartan, monospace;
   margin-top: 2rem;
   font-weight: bold;
+  margin-left: 0x;
+  border: 3px solid #000;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 .imgHolder {
   margin: auto;
@@ -35,9 +39,18 @@
   width: 150px;
   height: 150px;
   object-fit: cover;
+  margin: 20px 0 20px 125px;
 }
 #input[type="file"] {
   display: none;
+}
+
+.prediction {
+  background-color: yellowgreen;
+  padding: 5px;
+  text-align: center;
+  margin: 0 10px 0 10px;
+  border-radius: 3px;
 }
 .label {
   width: 100%;

@@ -6,14 +6,11 @@
   width: 768px;
 }
 
-
-
 /* fullscreen enable by props */
 .demo-image-preview-fullscreen > img {
-  width: 100vw;
-  height:100vh;
+  width: 40vw;
+  height: 40vh;
 }
-.photocap{
+.photocap {
   color: black;
 }
-  
