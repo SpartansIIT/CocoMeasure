@@ -7,10 +7,20 @@ function Home(){
     return(
         <div className="content">
 
+        <div className="nav">
 
-        <h1 className ="AppName">Coco Measure</h1>
+          <div className="nav-logo"> 
+            <h1 className ="AppName">Coco Measure</h1>
+            <h3 className="Moto">Measure before you buy it...</h3>
+          </div> 
 
-        <h3 className="Moto">Measure before you buy it...</h3>
+          <div className="buttonNav">
+            <button  className="btn-nav">Home</button>
+            <button  className="btn-nav">gazette</button>
+            <button  className="btn-nav">Help</button>
+          </div>
+
+        </div>
 
         <div className = "buttonContainer">        
           <div className = "button1">

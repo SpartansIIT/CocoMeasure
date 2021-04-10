@@ -31,7 +31,7 @@
   font-family: "Spartan", monospace;
   font-size: 22px;
   margin-left: 88px;
-  margin-top:-40px;
+  margin-top: -40px;
 }
 
 .App-header {
@@ -58,33 +58,59 @@
   }
 }
 
+.nav {
+  background-color: aquamarine;
+}
+
+.nav-logo {
+  float: left;
+}
+
+.buttonNav {
+  float: right;
+  margin-top: 40px;
+}
+
+.btn-nav {
+  border: 1px solid rgb(252, 241, 210);
+  border-radius: 20px;
+  background: #4b340387;
+  padding: 10px;
+  font-size: 15px;
+  margin: 10px;
+  transition: 0.7s;
+  position: relative;
+  font-family: "IBM Plex Mono", monospace;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
 .buttonContainer {
-  margin-top: 2rem;
-  margin-left: 10rem;
-  
+  margin: auto;
+
+  width: 440px;
+  margin-top: 200px;
 }
 
 .btn {
   border: 1px solid rgb(252, 241, 210);
   border-radius: 20px;
   background: #4b340387;
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 27px;
   cursor: pointer;
-  margin: 10px;
+  text-decoration: none;
   transition: 0.7s;
   position: relative;
   font-family: "IBM Plex Mono", monospace;
-  color: rgb(255, 255, 255);  
+  color: rgb(255, 255, 255);
   overflow: hidden;
   margin: 1rem;
-  margin-top: 3rem;
   margin-bottom: 1rem;
-  margin-left: 2rem;
-  right: -150px;
+
   top: 10px;
   align-content: flex-start;
-
+  width: 400px;
 }
 
 .btn:hover {
