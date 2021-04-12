@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300;1,500&display=swap");
+
+.con {
+  background-color: white;
+  color: black;
+}
+
+.content {
+  background-image: url("assets/Coco\ Image\ background\ 3.png");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+}
+
+.AppName {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family: "Spartan", monospace;
+  font-size: 74px;
+  text-shadow: 3px 3px#ff812787;
+  margin-top: 40px;
+  /* right: -8%; */
+  margin-left: 80px;
+}
+
+.Moto {
+  color: rgb(255, 255, 255);
+  font-family: "Spartan", monospace;
+  font-size: 22px;
+  margin-left: 88px;
+  margin-top: -40px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav {
+  background-color: aquamarine;
+}
+
+.nav-logo {
+  float: left;
+}
+
+.buttonNav {
+  float: right;
+  margin-top: 40px;
+}
+
+.btn-nav {
+  border: 1px solid rgb(252, 241, 210);
+  border-radius: 20px;
+  background: #4b340387;
+  padding: 10px;
+  font-size: 15px;
+  margin: 10px;
+  transition: 0.7s;
+  position: relative;
+  font-family: "IBM Plex Mono", monospace;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.buttonContainer {
+  margin: auto;
+
+  width: 440px;
+  margin-top: 200px;
+}
+
+.btn {
+  border: 1px solid rgb(252, 241, 210);
+  border-radius: 20px;
+  background: #4b340387;
+  padding: 10px 10px;
+  font-size: 27px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.7s;
+  position: relative;
+  font-family: "IBM Plex Mono", monospace;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  margin: 1rem;
+  margin-bottom: 1rem;
+
+  top: 10px;
+  align-content: flex-start;
+  width: 400px;
+}
+
+.btn:hover {
+  background: rgb(236, 222, 184);
+  opacity: 0.9;
+  color: rgb(133, 75, 0);
+}

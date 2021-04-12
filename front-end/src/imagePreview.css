@@ -1,0 +1,16 @@
+.demo-image-preview {
+  text-align: center;
+}
+
+.demo-image-preview > img {
+  width: 768px;
+}
+
+/* fullscreen enable by props */
+.demo-image-preview-fullscreen > img {
+  width: 40vw;
+  height: 40vh;
+}
+.photocap {
+  color: black;
+}
