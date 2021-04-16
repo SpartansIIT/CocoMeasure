@@ -7,6 +7,22 @@ function Home(){
     return(
         <div className="content">
 
+             <nav>
+      <ul>
+            <li>
+                <a href="Home.html">[][][]</a>               
+                <ul>
+                    <li><a href=""> Help ?</a></li>
+                    <li><a href=""> FAQ</a></li>
+                    <li><a href=""> Gazette</a></li>
+                    <li><a href=""> About Us</a></li>
+
+                </ul>
+            </li> 
+        </ul>
+
+      </nav>
+
         <div className="nav">
 
           <div className="nav-logo"> 
@@ -14,11 +30,7 @@ function Home(){
             <h3 className="Moto">Measure before you buy it...</h3>
           </div> 
 
-          <div className="buttonNav">
-            <button  className="btn-nav">Home</button>
-            <button  className="btn-nav">gazette</button>
-            <button  className="btn-nav">Help</button>
-          </div>
+       
 
         </div>
 
