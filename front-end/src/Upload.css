@@ -7,8 +7,11 @@
   height: 100vh;
   align-items: center;
   background-color: teal;
-  background-image: url("assets/Coco\ Image\ background\ 4.png");
+  background-image: url("assets/Coco\ Image\ background\ 15.png");
   justify-content: center;
+  background-size: 1800px;
+
+  
 }
 
 .container2 {
@@ -117,4 +120,13 @@
 
 .app__input {
   margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .WholePage {
+    background-size: 1200px;
+    background-position-x: -240px;
+    background-position-y: 0px;
+  }
 }
