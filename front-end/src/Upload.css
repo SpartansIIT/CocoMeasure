@@ -10,8 +10,6 @@
   background-image: url("assets/Coco\ Image\ background\ 15.png");
   justify-content: center;
   background-size: 1800px;
-
-  
 }
 
 .container2 {
@@ -25,7 +23,7 @@
   font-family: Spartan, monospace;
   margin-top: 2rem;
   font-weight: bold;
-  border: 2px solid #000;
+  /* border: 2px solid #000; */
   border-radius: 5px;
   margin-top: 20px;
 }
@@ -36,7 +34,6 @@
   border: 3px black solid;
   border-radius: 5px;
   margin-top: 1rem;
-  
 }
 .image {
   width: 150px;
@@ -121,7 +118,6 @@
 .app__input {
   margin-top: 10px;
 }
-
 
 @media only screen and (max-width: 600px) {
   .WholePage {

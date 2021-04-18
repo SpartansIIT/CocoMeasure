@@ -7,13 +7,16 @@
   color: black;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .content {
   background-image: url("assets/Coco\ Image\ background\ 3.png");
   position: fixed;
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
-  
 }
 
 .AppName {
@@ -50,93 +53,81 @@
   color: #61dafb;
 }
 
+nav {
+  /*Styling nav bar*/
 
-
-nav{                                      /*Styling nav bar*/
-
-  background:black;
+  background: black;
   margin-top: -60px;
   height: 145px;
   opacity: 0.6;
-
 }
 
-.logo {                                /*Css for website logo*/
+.logo {
+  /*Css for website logo*/
 
   width: 100px;
   height: 100px;
   margin: 30px 100px;
   border-radius: 50%;
-
 }
 
-
-
-nav ul{
+nav ul {
   list-style: none;
   float: right;
   position: relative;
   top: 65px;
   margin-top: 45px;
-
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   margin: -70px 50px 20px;
   background: black;
-
 }
 
-nav:after{
+nav:after {
   clear: both;
   display: table;
-  content: '';
-
+  content: "";
 }
-nav ul li a{
+nav ul li a {
   color: white;
   line-height: 30px;
   font-size: 22px;
   margin-top: -50px;
   text-decoration: none;
   padding: 8px 10px;
-
 }
 
-
-nav ul li a:hover{                      /*Adding hover effect to the nav */
+nav ul li a:hover {
+  /*Adding hover effect to the nav */
 
   color: cyan;
   box-shadow: 0 0 5px #33ffff;
 }
 
-nav ul ul{
+nav ul ul {
   position: absolute;
   top: -30px;
   opacity: 0;
   visibility: hidden;
-
 }
 
-nav ul li:hover > ul{
+nav ul li:hover > ul {
   opacity: 1;
   visibility: visible;
 }
 
-nav ul ul li{
-  position: relative;                       /* Setting properties of a relatively-positioned*/
+nav ul ul li {
+  position: relative; /* Setting properties of a relatively-positioned*/
   margin: 33px -45px -10px;
   width: 120px;
   float: none;
   display: list-item;
-
 }
-
 
 .buttonContainer {
   margin: auto;
-
 
   width: 440px;
   margin-top: 25px;
@@ -160,7 +151,6 @@ nav ul ul li{
   top: 10px;
   align-content: flex-start;
   width: 400px;
-  
 }
 
 .btn:hover {
@@ -175,74 +165,69 @@ nav ul ul li{
     background-size: 1000px;
     background-position-y: 120px;
     background-position-x: -100px;
+  }
 
-    
-  
-}
+  .AppName {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: "Spartan", monospace;
+    font-size: 54px;
+    text-shadow: 3px 3px#ff812787;
+    margin-top: 60px;
+    /* right: -8%; */
+    margin-left: 30px;
+  }
 
-.AppName {
-  position: relative;
-  color: rgb(255, 255, 255);
-  font-family: "Spartan", monospace;
-  font-size: 54px;
-  text-shadow: 3px 3px#ff812787;
-  margin-top: 60px;
-  /* right: -8%; */
-  margin-left: 30px;
-}
+  .Moto {
+    color: rgb(255, 255, 255);
+    font-family: "Spartan", monospace;
+    font-size: 15px;
+    margin-left: 88px;
+    margin-top: -25px;
+  }
 
-.Moto {
-  color: rgb(255, 255, 255);
-  font-family: "Spartan", monospace;
-  font-size: 15px;
-  margin-left: 88px;
-  margin-top: -25px;
-}
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  .buttonContainer {
+    margin: auto;
 
-.buttonContainer {
-  margin: auto;
+    width: 370px;
+    margin-top: 25px;
+  }
 
+  .btn {
+    border: 1px solid rgb(252, 241, 210);
+    border-radius: 20px;
+    background: #4b340387;
+    padding: 10px 10px;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.7s;
+    position: relative;
+    font-family: "IBM Plex Mono", monospace;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    margin: 1rem;
+    margin-bottom: 1rem;
 
-  width: 370px;
-  margin-top: 25px;
-}
+    top: 10px;
+    align-content: flex-start;
+    width: 350px;
+  }
 
-.btn {
-  border: 1px solid rgb(252, 241, 210);
-  border-radius: 20px;
-  background: #4b340387;
-  padding: 10px 10px;
-  font-size: 22px;
-  cursor: pointer;
-  text-decoration: none;
-  transition: 0.7s;
-  position: relative;
-  font-family: "IBM Plex Mono", monospace;
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  margin: 1rem;
-  margin-bottom: 1rem;
-
-  top: 10px;
-  align-content: flex-start;
-  width: 350px;
-  
-}
-
-.btn:hover {
-  background: rgb(236, 222, 184);
-  opacity: 0.9;
-  color: rgb(133, 75, 0);
-}
+  .btn:hover {
+    background: rgb(236, 222, 184);
+    opacity: 0.9;
+    color: rgb(133, 75, 0);
+  }
 }

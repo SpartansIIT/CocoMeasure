@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Gazette from './Gazette';
 
 import { BrowserRouter as Router, Route, Link, Navlink, Switch } from 'react-router-dom';
 
@@ -14,7 +15,7 @@ function Home(){
                 <ul>
                     <li><a href=""> Help ?</a></li>
                     <li><a href=""> FAQ</a></li>
-                    <li><a href=""> Gazette</a></li>
+                    <li><Link to="/Gazette"> Gazette</Link></li>
                     <li><a href=""> About Us</a></li>
 
                 </ul>
@@ -44,7 +45,7 @@ function Home(){
           </div>
 
           <div className = "button3">
-            <button className="btn">View Price Categories</button>
+            <button className="btn"><Link to="/Pricing">View Price Categories </Link></button>
           </div>
         </div>
 

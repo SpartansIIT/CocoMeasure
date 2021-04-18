@@ -3,7 +3,7 @@ import axios from 'axios';
 import './Upload.css';
 
 export class UploadPic extends Component {
-	// Constructor
+
 	constructor() {
 		super()
 		this.state = {
