@@ -1,28 +1,56 @@
 import React from 'react';
 import './Home.css';
 import Gazette from './Gazette';
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 import { BrowserRouter as Router, Route, Link, Navlink, Switch } from 'react-router-dom';
 
 function Home(){
     return(
         <div className="content">
+          <nav className="navbar">
+        <div className="nav-container">
+          
 
-             <nav>
-      <ul>
-            <li>
-                <a href="Home.html">[][][]</a>               
-                <ul>
-                    <li><a href=""> Help ?</a></li>
-                    <li><a href=""> FAQ</a></li>
-                    <li><Link to="/Gazette"> Gazette</Link></li>
-                    <li><a href=""> About Us</a></li>
-
-                </ul>
-            </li> 
-        </ul>
-
+          <ul className={"nav-menu"}>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-links"
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/about"
+                activeClassName="active"
+                className="nav-links"
+              >
+                About
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/blog"
+                activeClassName="active"
+                className="nav-links"
+              >
+                Blog
+              </NavLink>
+            </li>
+           
+          </ul>
+        
+        </div>
       </nav>
+
+           
 
         <div className="nav">
 
