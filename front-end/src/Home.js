@@ -10,7 +10,7 @@ function Home(){
     return(
         <div className="content">
           <nav className="navbar">
-        <div className="nav-container">
+        <div className="navContainer">
           
 
           <ul className={"nav-menu"}>
@@ -18,7 +18,6 @@ function Home(){
               <NavLink
                 exact
                 to="/"
-                activeClassName="active"
                 className="nav-links"
               >
                 Home
@@ -28,7 +27,6 @@ function Home(){
               <NavLink
                 exact
                 to="/about"
-                activeClassName="active"
                 className="nav-links"
               >
                 About
@@ -38,10 +36,9 @@ function Home(){
               <NavLink
                 exact
                 to="/blog"
-                activeClassName="active"
                 className="nav-links"
               >
-                Blog
+                Gazette
               </NavLink>
             </li>
            
