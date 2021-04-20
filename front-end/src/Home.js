@@ -9,15 +9,29 @@ import { BrowserRouter as Router, Route, Link, Navlink, Switch } from 'react-rou
 function Home(){
     return(
         <div className="content">
+
           <nav className="navbar">
+
+            <div className="nav">
+
+              <div className="nav-logo"> 
+
+                <h1 className ="AppName">Coco Measure</h1>
+                <h3 className="Moto">Measure before you buy it...</h3>
+                
+              </div> 
+
+            </div>
+
+            <div className="spacer"/>
+
             <div className="navContainer">
-          
 
               <ul className={"nav-menu"}>
                 <li className="nav-item">
                   <NavLink
                     exact
-                    to="/Home"
+                    to="/"
                     className="nav-links"
                   >
                     Home
@@ -49,16 +63,7 @@ function Home(){
 
            
 
-          <div className="nav">
-
-            <div className="nav-logo"> 
-              <h1 className ="AppName">Coco Measure</h1>
-              <h3 className="Moto">Measure before you buy it...</h3>
-            </div> 
-
-       
-
-            </div>
+          
 
             <div className = "buttonContainer">        
               <div className = "button1">
