@@ -13,11 +13,12 @@
 }
 
 .container2 {
-  height: 450px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.7);
 }
+
 .UploadImage {
   text-align: center;
   font-family: Spartan, monospace;
@@ -27,6 +28,7 @@
   border-radius: 5px;
   margin-top: 20px;
 }
+
 .imgHolder {
   margin: auto;
   width: 150px;
@@ -35,40 +37,39 @@
   border-radius: 5px;
   margin-top: 1rem;
 }
+
 .image {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
-  margin: 20px 0 20px 125px;
+  margin-top: 7%;
+  margin-left: 25%;
+  align-items: center;
 }
+
 #input[type="file"] {
   display: none;
 }
 
-.prediction {
-  background-color: yellowgreen;
-  padding: 5px;
-  text-align: center;
-  margin: 0 10px 0 10px;
-  border-radius: 5px;
-}
+
 .label {
   width: 100%;
   margin-top: 1rem;
   display: flex;
   justify-content: center;
 }
+
 .image-upload {
   width: 300px;
   height: 50px;
-  margin: 20px;
-  padding: 5px 15px;
+  margin-top: 5px;
+  padding: 8px 15px;
   font-family: Spartan, monospace;
   font-weight: 900;
   color: white;
   transition: 0.7s;
   border-radius: 5px;
-  background-color: rgb(128, 103, 103);
+  background-color: rgb(110, 14, 14, 0.651);
   text-align: center;
   cursor: pointer;
 }
@@ -76,14 +77,14 @@
 .image-upload:hover {
   background: rgb(119, 189, 104);
   opacity: 0.9;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0, 0.808);
 }
 
 #btn-predict {
-  width: 70px;
+  width: 80px;
   height: 25px;
   margin: 10px;
-  padding: 5px;
+  padding: 5px 5px 5px 5px;
   border-radius: 5px;
   font-family: Spartan, monospace;
   font-weight: 900;
@@ -91,14 +92,15 @@
   text-align: center;
   cursor: pointer;
   transition: 0.7s;
-  margin-top: 1.2rem;
-  margin-left: 165px;
-  background-color: rgb(128, 103, 103);
+  margin-top: 40px;
+  margin-left: 42%;
+  background-color: rgba(110, 14, 14, 0.651);
 }
+
 #btn-predict:hover {
   background: yellowgreen;
   opacity: 0.9;
-  color: black;
+  color: rgba(0, 0, 0, 0.808);
 }
 
 .app {
@@ -124,5 +126,114 @@
     background-size: 1200px;
     background-position-x: -240px;
     background-position-y: 0px;
+  }
+
+  .container2 {
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .UploadImage {
+    text-align: center;
+    font-family: Spartan, monospace;
+    margin-top: 2rem;
+    font-weight: bold;
+    /* border: 2px solid #000; */
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .imgHolder {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 3px black solid;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  .image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 7%;
+    margin-left: 25%;
+    align-items: center;
+  }
+  
+  #input[type="file"] {
+    display: none;
+  }
+  
+  
+  .label {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-upload {
+    width: 300px;
+    height: 50px;
+    margin-top: 5px;
+    padding: 8px 15px;
+    font-family: Spartan, monospace;
+    font-weight: 900;
+    color: white;
+    transition: 0.7s;
+    border-radius: 5px;
+    background-color: rgb(110, 14, 14, 0.651);
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .image-upload:hover {
+    background: rgb(119, 189, 104);
+    opacity: 0.9;
+    color: rgb(0, 0, 0, 0.808);
+  }
+  
+  #btn-predict {
+    width: 80px;
+    height: 25px;
+    margin: 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    font-family: Spartan, monospace;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.7s;
+    margin-top: 40px;
+    margin-left: 42%;
+    background-color: rgba(110, 14, 14, 0.651);
+  }
+  
+  #btn-predict:hover {
+    background: yellowgreen;
+    opacity: 0.9;
+    color: rgba(0, 0, 0, 0.808);
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app__container {
+    margin-top: 10px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+  }
+  
+  .app__input {
+    margin-top: 10px;
   }
 }

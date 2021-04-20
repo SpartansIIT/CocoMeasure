@@ -76,7 +76,6 @@ export class UploadPic extends Component {
 								</form>
 							</div>
 		
-		
 							{/* Field for previewing the chosen image */}
 							<div>
 								{ this.state.previewImageUrl &&
@@ -90,7 +89,6 @@ export class UploadPic extends Component {
 								<button onClick={this.uploadHandler} id="btn-predict">Predict</button>
 		
 							</div>
-		
 		
 							<div className="prediction">
 								  { this.state.imagePrediction &&
