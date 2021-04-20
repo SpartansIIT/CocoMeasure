@@ -9,11 +9,13 @@ function App (props) {
   const [dataUri, setDataUri] = useState('');
  
   function handleTakePhotoAnimationDone (dataUri) {
-    console.log('takePhoto');
+    console.log('Captured photo successfully');
     setDataUri(dataUri);
   }
- 
+
   const isFullscreen = false;
+
+  
   return (
     <div>
       {
