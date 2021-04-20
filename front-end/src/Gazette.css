@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+
+.gazette{
+    background-image: url("assets/Coco\ Image\ background\ 2.png");
+    background-size: 100%;
+    position: fixed;
+}
+.gazette_desc{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "Spartan", monospace;
+}
+.gazetteheading{
+    font-size: 34px;
+    text-shadow: 1px 1px#ce80498e;
+}
+.gazettedescription{
+    font-size: 20px;
+}
+/* .gazetteimg{
+} */

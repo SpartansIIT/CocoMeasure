@@ -40,19 +40,19 @@ function Home(){
                 <li className="nav-item">
                   <NavLink
                     exact
-                    to="/about"
+                    to="/Gazette"
                     className="nav-links"
                   >
-                    About
+                    Gazette
                   </NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink
                     exact
-                    to="/Gazette"
+                    to="/about"
                     className="nav-links"
                   >
-                    Gazette
+                    About us
                   </NavLink>
                 </li>
            
