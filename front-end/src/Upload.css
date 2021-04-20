@@ -123,14 +123,18 @@
 
 @media only screen and (max-width: 600px) {
   .WholePage {
-    background-size: 1200px;
-    background-position-x: -240px;
-    background-position-y: 0px;
+  height: 100vh;
+  align-items: center;
+  background-color: teal;
+  background-image: url("assets/Coco\ Image\ background\ 13.png");
+  background-size: 100%;
+  position: initial;
+  justify-content: center;
   }
 
   .container2 {
     height: 500px;
-    width: 500px;
+    width: 350px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.7);
   }
@@ -155,12 +159,12 @@
   }
   
   .image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-    margin-top: 7%;
-    margin-left: 25%;
     align-items: center;
+    margin-top: 20%;
+    margin-left: 21.5%;
   }
   
   #input[type="file"] {
@@ -208,8 +212,8 @@
     text-align: center;
     cursor: pointer;
     transition: 0.7s;
-    margin-top: 40px;
-    margin-left: 42%;
+    margin-top: 70px;
+    margin-left: 40%;
     background-color: rgba(110, 14, 14, 0.651);
   }
   
