@@ -57,3 +57,65 @@
     margin-top: 5px;
     margin-left: 70px;
 }
+
+@media only screen and (max-width: 600px) {
+    .priceCategories{
+        background-image: url("assets/Coco\ Image\ background.png");
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;
+        background-size: cover;
+    }
+    
+    .table{
+        background-color: rgba(250, 250, 250, 0.397);
+        border-radius: 20px;
+        align-items: center;
+        position: relative;
+        font-family: "Spartan", monospace;
+        margin-top: 100px;
+        margin-left: 500px;
+        border-spacing: 8px;
+    }
+    #tableheadsize{
+        padding: 10px;
+        color: rgb(26, 16, 16);
+        font-size: 24px;
+        text-shadow: 2px 1px#f0823387;
+    }
+    #tableheadprice{
+        padding: 10px;
+        color: rgb(26, 16, 16);
+        font-size: 24px;
+        text-shadow: 2px 1px#f0823387;
+    }
+    #tablecat{
+        font-size: 20px;
+        text-shadow: 0.5px 0.5px#5f7ec087;
+        color: #000000c2;
+        padding-right: 50px;
+    }
+    #tableprice{
+        font-size: 20px;
+        color: #ad1010c2;
+        padding-left: 10px;
+    }
+    .pricingpagename{
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-family: "Spartan", monospace;
+        font-size: 44px;
+        text-shadow: 3px 1.5px#ff6c098f;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    .pricingdescription{
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-family: "Spartan", monospace;
+        font-size: 24px;
+        text-shadow: 2px 1px#ff6c098f;
+        margin-top: 5px;
+        margin-left: 70px;
+    }
+}
