@@ -49,7 +49,7 @@ function Home(){
                 <li className="nav-item">
                   <NavLink
                     exact
-                    to="/about"
+                    to="/aboutUs"
                     className="nav-links"
                   >
                     About us

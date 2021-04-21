@@ -15,7 +15,7 @@ function Gazette() {
       </div>
 
       {/* <div className = "gazetteimg">
-        <img src={require('assets\coocnut retail price gazette.jpg')}/>
+        <img src={require('assets\coconut retail price gazette.jpg')}/>
       </div> */}
         
 
