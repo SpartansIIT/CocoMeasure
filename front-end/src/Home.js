@@ -31,7 +31,7 @@ function Home(){
                 <li className="nav-item">
                   <NavLink
                     exact
-                    to="/"
+                    to="/Home"
                     className="nav-links"
                   >
                     Home
