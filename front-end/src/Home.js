@@ -78,7 +78,10 @@ function Home(){
               <button className="btn"><Link to="/Pricing">View Price Categories </Link></button>
             </div>
           </div>
-         
+          <div className="footer">
+            <p>Copyright &copy; 2021 COMPASS. All Rights Reserved </p>
+          </div>
+
         </div>
     );
 }
