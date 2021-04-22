@@ -1,23 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
 
 .whole{
-    height: 1400px;
     background-color: black;
+    width: 100%;
+    height: 1800px;
 }
 
 .gazette{
     background-color: black;
     background-size: 100%;
-    position: absolute;
 }
 .gazette_desc{
     background-color: white;
     height: 1200px;
-    width: 2500px;
+    width: 100%;
     position: absolute;
     color: wheat;
     font-family: "Spartan", monospace;
     top: 150px;
+    margin-left: 20px;
     padding-top: 70px;
     background-color: rgb(0, 0, 0);
 
@@ -28,6 +29,7 @@
 }
 .gazettedescription{
     font-size: 20px;
+    padding: 2px;
 }
 .gazImg{
     
@@ -40,3 +42,56 @@
     border-radius: 3px;
     
 } 
+
+@media only screen and (max-width: 600px) {
+    
+    .whole{
+        
+    background-color: black;
+    width: 730px;
+    height: 1500px;
+    }
+    .gazette{
+        background-color: black;
+        background-size: 100%;
+        position: absolute;
+        text-align: center;
+        font-family: Spartan, monospace;
+        margin-top: 2rem;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: -80px;
+    }
+    .gazette_desc{
+        background-color: white;
+        height: 1200px;
+        width: 700px;
+        position: absolute;
+        color: wheat;
+        font-family: "Spartan", monospace;
+        top: 150px;
+        padding-top: 70px;
+        background-color: rgb(0, 0, 0);
+    
+    }
+    .gazetteheading{
+        font-size: 30px;
+        text-shadow: 1px 1px#ce80498e;
+    }
+    .gazettedescription{
+        font-size: 20px;
+    }
+    .gazImg{
+        background-image: url(./assets/coocnut\ retail\ price\ gazette.jpg);
+        position: absolute;
+        width: 730px;
+        height: 1000px;
+        margin-left: -365px;
+        border: black;
+        border-radius: 3px;
+        
+    } 
+    
+  }
+  
+  

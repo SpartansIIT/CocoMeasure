@@ -9,66 +9,66 @@ function Gazette() {
 
   return (
 
-    <div className="whole">
+    <div className="whole" >
 
  
       <div className="gazette">
-      <nav className="navbar">
+        <nav className="navbar">
 
-<div className="nav">
+          <div className="nav">
 
-  <div className="nav-logo"> 
+            <div className="nav-logo"> 
 
-    <h1 className ="AppName">Coco Measure</h1>
+              <h1 className ="AppName">Coco Measure</h1>
     
-  </div> 
+            </div> 
 
-</div>
+          </div>
 
-<div className="spacer"/>
+          <div className="spacer"/>
 
-<div className="navContainer">
+            <div className="navContainer">
 
-  <ul className={"nav-menu"}>
-    <li className="nav-item">
-      <NavLink
-        exact
-        to="/"
-        className="nav-links"
-      >
-        Home
-      </NavLink>
-    </li>
-    <li className="nav-item">
-      <NavLink
-        exact
-        to="/Gazette"
-        className="nav-links"
-      >
-        Gazette
-      </NavLink>
-    </li>
-    <li className="nav-item">
-      <NavLink
-        exact
-        to="/aboutUs"
-        className="nav-links"
-      >
-        About us
-      </NavLink>
-    </li>
+              <ul className={"nav-menu"}>
+                <li className="nav-item">
+                  <NavLink
+                  exact
+                  to="/"
+                  className="nav-links"
+                  >
+                  Home
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                  exact
+                  to="/Gazette"
+                  className="nav-links"
+                  >
+                  Gazette
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                  exact
+                  to="/aboutUs"
+                  className="nav-links"
+                  >
+                  About us
+                  </NavLink>
+                </li>
 
-  </ul>
+              </ul>
 
-</div>
-</nav>
+            </div>
+          </nav>
 
       
-<div className = "gazette_desc">
+            <div className = "gazette_desc">
   
-    <h1 className ="gazetteheading">The Gazette of maximum retail price of coconuts</h1>
-    <h3 className="gazettedescription">The Consumer Affairs Authority (CAA) in the Extraordinary Gazette No.2194/73, ordered a maximum retail price on coconut.
-    The order shall <br />come into effect from 25th September 2020.</h3>
+            <h1 className ="gazetteheading">The Gazette of maximum retail price of coconuts</h1>
+            <h3 className="gazettedescription">The Consumer Affairs Authority (CAA) in the Extraordinary Gazette No.2194/73, ordered a maximum retail price on coconut.
+              The order shall <br />come into effect from 25th September 2020.</h3>
     <img className="gazImg"></img>
 
     
