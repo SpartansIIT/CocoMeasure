@@ -94,7 +94,7 @@ export class UploadPic extends Component {
 								  { this.state.imagePrediction &&
 									<p>{this.state.imagePrediction} </p>
 								  }
-							  </div>
+							</div>
 						</div>
 						</div>
 					 );
