@@ -15,7 +15,7 @@ function App (props) {
 
   const isFullscreen = false;
 
-  
+
   return (
     <div className="camBgImage">
       {

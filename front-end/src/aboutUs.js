@@ -62,12 +62,12 @@ function aboutUs(){
 
 
             
-             <div className="box">
+          <div className="box">
             <img className="imgAbout1" />;
             
             <h1> <br />
             Bhushitha Ekanayake<br />
-              2019156<br />w1761194</h1>
+            2019156<br />w1761194</h1>
               
           </div>
 
@@ -92,15 +92,15 @@ function aboutUs(){
             <img className="imgAbout4" />;
             
             <h1> <br />
-            Youjith	Deelake<br />
-            2018137<br />w1714901</h1>
+              Youjith	Deelake<br />
+              2018137<br />w1714901</h1>
               
           </div>
           <div className="box">
             <img className="imgAbout5" />;
             
             <h1> <br />
-            Denuwan	Gunasinghe<br />
+              Denuwan	Gunasinghe<br />
               2018583<br />w1742255</h1>
               
           </div>
@@ -109,8 +109,8 @@ function aboutUs(){
             <img className="imgAbout6" />;
             
             <h1> <br />
-            Pasal	Wickramasinghe<br />
-            2018277<br />w1715783</h1>
+              Pasal	Wickramasinghe<br />
+              2018277<br />w1715783</h1>
               
           </div>
 
