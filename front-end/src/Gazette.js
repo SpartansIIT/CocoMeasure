@@ -66,17 +66,17 @@ function Gazette() {
       
             <div className = "gazette_desc">
   
-            <h1 className ="gazetteheading">The Gazette of maximum retail price of coconuts</h1>
-            <h3 className="gazettedescription">The Consumer Affairs Authority (CAA) in the Extraordinary Gazette No.2194/73, ordered a maximum retail price on coconut.
-              The order shall <br />come into effect from 25th September 2020.</h3>
-    <img className="gazImg"></img>
+              <h1 className ="gazetteheading">The Gazette of maximum retail price of coconuts</h1>
+              <h3 className="gazettedescription">The Consumer Affairs Authority (CAA) in the Extraordinary Gazette No.2194/73, ordered a maximum retail price on coconut.
+                The order shall <br />come into effect from 25th September 2020.</h3>
+              <img className="gazImg"></img>
 
     
-</div> 
+            </div> 
 
 
 
-</div>
+      </div>
 
     </div>
     

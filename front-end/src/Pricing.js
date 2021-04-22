@@ -36,6 +36,12 @@ function Pricing() {
 
         </table>
 
+        <div className="footer">
+            <p>Copyright &copy; 2021 COMPASS. All Rights Reserved </p>
+          </div>
+
+      
+
     </div>
   );
 }
