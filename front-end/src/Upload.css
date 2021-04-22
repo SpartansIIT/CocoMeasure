@@ -51,7 +51,6 @@
   display: none;
 }
 
-
 .label {
   width: 100%;
   margin-top: 1rem;
@@ -123,13 +122,13 @@
 
 @media only screen and (max-width: 600px) {
   .WholePage {
-  height: 100vh;
-  align-items: center;
-  background-color: teal;
-  background-image: url("assets/Coco\ Image\ background\ 13.png");
-  background-size: 100%;
-  position: initial;
-  justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: teal;
+    background-image: url("assets/Coco\ Image\ background\ 13.png");
+    background-size: 100%;
+    position: initial;
+    justify-content: center;
   }
 
   .container2 {
@@ -138,7 +137,7 @@
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.7);
   }
-  
+
   .UploadImage {
     text-align: center;
     font-family: Spartan, monospace;
@@ -148,7 +147,7 @@
     border-radius: 5px;
     margin-top: 20px;
   }
-  
+
   .imgHolder {
     margin: auto;
     width: 150px;
@@ -157,7 +156,7 @@
     border-radius: 5px;
     margin-top: 1rem;
   }
-  
+
   .image {
     width: 200px;
     height: 200px;
@@ -166,19 +165,18 @@
     margin-top: 20%;
     margin-left: 21.5%;
   }
-  
+
   #input[type="file"] {
     display: none;
   }
-  
-  
+
   .label {
     width: 100%;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
   }
-  
+
   .image-upload {
     width: 300px;
     height: 50px;
@@ -193,13 +191,13 @@
     text-align: center;
     cursor: pointer;
   }
-  
+
   .image-upload:hover {
     background: rgb(119, 189, 104);
     opacity: 0.9;
     color: rgb(0, 0, 0, 0.808);
   }
-  
+
   #btn-predict {
     width: 80px;
     height: 25px;
@@ -216,28 +214,33 @@
     margin-left: 40%;
     background-color: rgba(110, 14, 14, 0.651);
   }
-  
+
   #btn-predict:hover {
     background: yellowgreen;
     opacity: 0.9;
     color: rgba(0, 0, 0, 0.808);
   }
-  
+
   .app {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
+
   .app__container {
     margin-top: 10px;
     width: 500px;
     height: 500px;
     border: 1px solid #000;
   }
-  
+
   .app__input {
     margin-top: 10px;
   }
+}
+
+.prediction {
+  margin: 0 0 0 20px;
+  background-color: aqua;
 }

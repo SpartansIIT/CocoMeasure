@@ -92,7 +92,7 @@ export class UploadPic extends Component {
 		
 							<div className="prediction">
 								  { this.state.imagePrediction &&
-									<p>The model predicted: {this.state.imagePrediction} </p>
+									<p>{this.state.imagePrediction} </p>
 								  }
 							  </div>
 						</div>
