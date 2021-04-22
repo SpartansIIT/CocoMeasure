@@ -78,7 +78,7 @@ function Home(){
               <button className="btn"><Link to="/Pricing">View Price Categories </Link></button>
             </div>
           </div>
-
+         
         </div>
     );
 }

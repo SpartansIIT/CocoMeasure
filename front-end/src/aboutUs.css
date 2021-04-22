@@ -1,18 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 .wholepage{
+    font-family: "Spartan", monospace;
     background-color: black;
     width: 100%;
-    height: 1800px;
+    height: 1200px;
 
 
 }
 .box{
-    width:350px;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    width:300px;
     height:400px;
     display:inline-block;
     position:relative;
     transition:.3s;
     margin:70px;
-    margin-top: 300px;
+    margin-top: 150px;
 }
 .imgAbout1{
     background-image: url(./assets/bhushitha.jpeg);
@@ -39,8 +45,6 @@
     width:100%;
     height: 100%;
     position: absolute;
-
-    
     transition:.3s;
     border-radius:4px;
 }
@@ -72,3 +76,97 @@
 
 }
 
+@media only screen and (max-width: 600px) {
+    .wholepage{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    
+    }
+    .box{
+        width:270px;
+        height:300px;
+        display:inline-block;
+        transition:.3s;
+        margin:70px;
+        margin-top: 300px;
+        margin-left: 60px;
+    }
+    .imgAbout1{
+        width: 70px;
+        height: 80px;
+        background-image: url(./assets/bhushitha.jpeg);
+    
+    }.imgAbout2{
+        background-image: url(./assets/nisandi.jpg);
+    
+    }.imgAbout3{
+        background-image: url(./assets/manodya.jpg);
+    
+    }.imgAbout4{
+        background-image: url(./assets/yojith.jpeg);
+    
+    }.imgAbout5{
+        background-image: url(./assets/denuwan.jpg);
+    
+    }
+    .imgAbout6{
+        background-image: url(./assets/pasal.jpeg);
+    
+    }
+        
+    .box img{
+        width:100%;
+        height: 100%;
+        position: absolute;
+    
+        
+        transition:.3s;
+        border-radius:4px;
+    }
+    
+    .box:hover img{
+        filter:blur(8px) brightness(60%);
+        box-shadow:0 0 16px cyan;
+    }
+    
+    .box :not(img){
+        position:absolute;
+        z-index:1;
+        top:30%;
+        width:100%;
+        text-align:center;
+        color: azure;;
+        opacity:0;
+        transition:.3s;
+        margin: 0px;
+        font-size: 35px;
+    }
+    
+    .box h2{
+        top:50%
+    }
+    
+    .box:hover :not(img){
+        opacity:1;
+    
+    }
+    /* .nav-menu {
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-top: -80px;
+        margin-left: -350px;
+        display: flex;
+        list-style: none;
+        text-align: center;
+        height: 40px;
+    }
+    .AppName {
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-family: "Spartan", monospace;
+        font-size: 35px;
+        text-shadow: 3px 3px#ff812787;
+        margin-top: -60px;
+        margin-left: 20px;
+    } */
+}

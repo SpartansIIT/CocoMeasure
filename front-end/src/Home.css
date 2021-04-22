@@ -130,6 +130,8 @@ a:link {
   color: rgb(133, 75, 0);
 }
 
+
+
 @media only screen and (max-width: 600px) {
   .navbar {
     position: fixed;
@@ -149,7 +151,7 @@ a:link {
   .nav-menu {
     background-color:  rgba(0, 0, 0, 0.5);
     margin-top: -100px;
-    margin-left: -320px;
+    margin-left: -330px;
     display: flex;
     list-style: none;
     text-align: center;
@@ -201,7 +203,7 @@ a:link {
     color: rgb(255, 255, 255);
     font-family: "Spartan", monospace;
     font-size: 15px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: -20px;
   }
 
