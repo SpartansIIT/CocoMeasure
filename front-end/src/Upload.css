@@ -121,6 +121,10 @@
   margin-top: 10px;
 }
 
+.prediction{
+  background-color: tan;
+}
+
 @media only screen and (max-width: 600px) {
   .WholePage {
   height: 100vh;
