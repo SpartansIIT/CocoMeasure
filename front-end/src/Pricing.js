@@ -10,7 +10,7 @@ function Pricing() {
         <table id="customers">
             <div className="pricingpage"> 
                 <h1 className ="pricingpagename">CocoMeasure Price List</h1>
-                <h3 className="pricingdescription">Prices According to the Consumer Authority Gazzete in 2020.</h3>
+                <h3 className="pricingdescription">Prices According to the Consumer Affairs Authority Gazzete in 2020.</h3>
             </div>
             <div className = "table">
                 <tr>
@@ -35,8 +35,6 @@ function Pricing() {
             </div>
 
         </table>
-
-      
 
     </div>
   );

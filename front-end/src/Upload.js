@@ -100,7 +100,8 @@ export class UploadPic extends Component {
 								  }
 							</div>
 						</div>
-						</div>
+						
+					</div>
 					 );
 					}
 				  }
