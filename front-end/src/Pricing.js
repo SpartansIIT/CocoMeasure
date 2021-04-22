@@ -9,8 +9,8 @@ function Pricing() {
     <div className="priceCategories">
         <table id="customers">
             <div className="pricingpage"> 
-                <h1 className ="pricingpagename">Coco Measure Pricie List</h1>
-                <h3 className="pricingdescription">Prices According to the Consumer Authority Gazzete</h3>
+                <h1 className ="pricingpagename">CocoMeasure Price List</h1>
+                <h3 className="pricingdescription">Prices According to the Consumer Authority Gazzete in 2020.</h3>
             </div>
             <div className = "table">
                 <tr>
