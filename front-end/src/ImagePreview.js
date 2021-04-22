@@ -10,9 +10,7 @@ export const ImagePreview = ({ dataUri, isFullscreen }) => {
     <div className={'demo-image-preview ' + classNameFullscreen}>
       <img src={dataUri} />
 
-      <h1 className="photocap">
-          Photo Captured Successfully 
-      </h1>
+       
     </div>
   );
 };

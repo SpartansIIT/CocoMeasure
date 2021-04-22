@@ -12,5 +12,11 @@
   height: 40vh;
 }
 .photocap {
-  color: black;
+  color: white;
+}
+.camBgImage{
+  background-image: url(./assets/Coco\ Image\ background.png);
+  height: 722px;
+  position: relative;
+
 }

@@ -17,7 +17,7 @@ function App (props) {
 
   
   return (
-    <div>
+    <div className="camBgImage">
       {
         (dataUri)
           ? <ImagePreview dataUri={dataUri}
