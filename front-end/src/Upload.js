@@ -18,8 +18,8 @@ export class UploadPic extends Component {
 	
 		// Function for previewing the chosen image
 		generatePreviewImageUrl(file, callback) {
-		  const reader = new FileReader()
-		  const url = reader.readAsDataURL(file)
+		  const reader = new FileReader() 				//creating a file reader
+		  const url = reader.readAsDataURL(file)		//reads the content of the file
 		  reader.onloadend = e => callback(reader.result)
 		}
 	
@@ -31,9 +31,10 @@ export class UploadPic extends Component {
 		  if (!file) {
 			return
 		  }
-	
+		  
+		  //previewing the uploaded image
 		  this.setState({imageFile: file})
-		  this.generatePreviewImageUrl(file, previewImageUrl => {
+		  this.generatePreviewImageUrl(file, previewImageUrl => { 
 				this.setState({
 				  previewImageUrl,
 				  imagePrediction:""
@@ -47,9 +48,12 @@ export class UploadPic extends Component {
 		const formData = new FormData()
 		formData.append('file', this.state.imageFile, 'img.png')
 		
-		var t0 = performance.now();
-		axios.post('http://127.0.0.1:5000/upload', formData)
+		
+		var t0 = performance.now(); //calculating time taken for prediction
+		console.log("sending image to backend.") 
+		axios.post('http://127.0.0.1:5000/upload', formData) //sending request to backend for prediction
 		.then(function(response, data) {
+				console.log("Image was uploaded successfully.")
 				data = response.data;
 				self.setState({imagePrediction:data})
 				var t1 = performance.now();
@@ -92,7 +96,7 @@ export class UploadPic extends Component {
 		
 							<div className="prediction">
 								  { this.state.imagePrediction &&
-									<p>{this.state.imagePrediction} </p>
+									<p>Image was uploaded successfully! <br></br> {this.state.imagePrediction} </p> //when the image was uploaded successfully
 								  }
 							</div>
 						</div>
