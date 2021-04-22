@@ -98,7 +98,6 @@ a:link {
 
 .buttonContainer {
   margin: auto;
-
   width: 440px;
   margin-top: 25px;
 }
@@ -113,7 +112,8 @@ a:link {
   text-decoration: none;
   transition: 0.7s;
   position: relative;
-  font-family: "IBM Plex Mono", monospace;
+  font-family:  "Spartan", monospace;
+  font-weight: bold;
   color: rgb(255, 255, 255);
   overflow: hidden;
   margin: 2rem;
@@ -148,8 +148,8 @@ a:link {
 
   .nav-menu {
     background-color:  rgba(0, 0, 0, 0.5);
-    margin-top: 120px;
-    margin-left: -200px;
+    margin-top: -100px;
+    margin-left: -320px;
     display: flex;
     list-style: none;
     text-align: center;
@@ -188,20 +188,21 @@ a:link {
 
   .AppName {
     position: relative;
+    width: max-content;
     color: rgb(255, 255, 255);
     font-family: "Spartan", monospace;
     font-size: 40px;
     text-shadow: 3px 3px#ff812787;
-    margin-top: 5px;
-    margin-left: 12px;
+    margin-top: 0px;
+    margin-left: 10px;
   }
 
   .Moto {
     color: rgb(255, 255, 255);
     font-family: "Spartan", monospace;
     font-size: 15px;
-    margin-left: 6%;
-    margin-top: -10px;
+    margin-left: 10px;
+    margin-top: -20px;
   }
 
   .buttonContainer {
