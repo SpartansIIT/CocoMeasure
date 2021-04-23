@@ -57,7 +57,7 @@
     margin-top: 5px;
     margin-left: 70px;
 }
-.footer{
+.footerpricing{
     font-weight: bold;
     margin-top: 280px;
     text-align: center;
@@ -133,4 +133,11 @@
         margin-top: 25px;
         margin-left: 10px;
     }
+    .footerpricing{
+        font-weight: bold;
+        margin-top: 510px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+      
 }

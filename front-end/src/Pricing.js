@@ -36,7 +36,7 @@ function Pricing() {
 
         </table>
 
-        <div className="footer">
+        <div className="footerpricing">
             <p>Copyright &copy; 2021 COMPASS. All Rights Reserved </p>
           </div>
 

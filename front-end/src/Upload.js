@@ -67,6 +67,10 @@ export class UploadPic extends Component {
 					<div className="WholePage">
 						<div className="container2">
 							<h1 className="UploadImage">Upload your Image</h1>
+
+							<div className="helper_upload">
+								<p># The image should be take by 30cm of distance</p>
+				  			</div>
 		
 		
 							{/* Button for choosing an image */}
@@ -100,6 +104,7 @@ export class UploadPic extends Component {
 								  }
 							</div>
 						</div>
+						
 						
 					</div>
 					 );
