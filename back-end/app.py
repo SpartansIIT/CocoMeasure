@@ -39,11 +39,6 @@ MODEL_PATH = 'cnn_model.h5'
 model = load_model(MODEL_PATH)
 
 
-@app.route('/time')
-def get_current_time():
-    return {'time': time.time()}
-
-
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -55,7 +50,7 @@ def model_predict(img_path, model):
 
     # Preprocessing the image
     x = image.img_to_array(img)
-    # x = np.true_divide(x, 255)
+
     # Scaling
     x = x/255
     x = np.expand_dims(x, axis=0)
@@ -63,15 +58,15 @@ def model_predict(img_path, model):
     preds = model.predict(x)
     preds = np.argmax(preds, axis=1)
     if preds == 0:
-        preds = "above 13"
+        preds = "Size Category: above 13 and prize: Rs 70/="
     elif preds == 1:
-        preds = "below 12"
+        preds = "Size Category: below 12 and prize: Rs 60/="
     elif preds == 2:
-        preds = "between 12 and 13"
+        preds = "between 12 - 13 and prize: Rs 65/="
     elif preds == 3:
-        preds = "Not a coconut"
+        preds = "Not a coconut. Try again!"
     else:
-        preds = "Please submit an image again"
+        preds = "Please submit an image again!"
 
     return preds
 
