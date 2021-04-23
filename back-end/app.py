@@ -58,11 +58,11 @@ def model_predict(img_path, model):
     preds = model.predict(x)
     preds = np.argmax(preds, axis=1)
     if preds == 0:
-        preds = "Size Category: above 13 and prize: Rs 70/="
+        preds = "Size Category: above 13 inches and prize: Rs 70/="
     elif preds == 1:
-        preds = "Size Category: below 12 and prize: Rs 60/="
+        preds = "Size Category: below 12 inches and prize: Rs 60/="
     elif preds == 2:
-        preds = "between 12 - 13 and prize: Rs 65/="
+        preds = "Size Category: between 12 - 13 inches and prize: Rs 65/="
     elif preds == 3:
         preds = "Not a coconut. Try again!"
     else:
